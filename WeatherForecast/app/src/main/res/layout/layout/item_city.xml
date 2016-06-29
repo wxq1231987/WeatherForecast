@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp"
+    android:descendantFocusability="blocksDescendants">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/logo_iv"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:id="@+id/city_tv"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/logo_iv"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"/>
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/del_imgBtn"
+        android:visibility="invisible"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="26dp"
+        android:src="@drawable/del"
+        android:background="@android:color/transparent"
+        />
+</RelativeLayout>

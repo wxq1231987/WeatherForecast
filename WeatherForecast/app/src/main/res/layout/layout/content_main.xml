@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="35dp"
+        android:id="@+id/cityname_tv"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:text="@string/cityname"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:textSize="50dp"
+        android:id="@+id/temp_tv"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/temp" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:id="@+id/weather_tv"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/weather" />
+</LinearLayout>

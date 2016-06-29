@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+    <!--<com.wangxuqin.weatherforecast.ui.StatusBarColorLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.wangxuqin.weatherforecast.ui.StatusBarColorLayout>-->
+    <include layout="@layout/include_toolbar"/>
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+        <!-- The main content view -->
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+        <!-- The navigation drawer -->
+        <RelativeLayout
+            android:id="@+id/left_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/cityManager">
+
+            <FrameLayout
+                android:id="@+id/title_frame"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/cityManager">
+
+                <TextView
+                    android:id="@+id/meg_tv"
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/meg_tv"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <ImageButton
+                    android:id="@+id/add_imgBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@id/meg_tv"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginRight="16dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:src="@drawable/add" />
+            </FrameLayout>
+            <ListView
+                android:id="@+id/city_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/title_frame"
+                android:background="@color/cityList"
+                android:choiceMode="singleChoice"
+                android:divider="#CCCCCC"
+                android:dividerHeight="1dp"
+                android:listSelector="@drawable/checkable_item_selector" />
+        </RelativeLayout>
+
+        <!--设置分割线颜色-->
+        <!--divider-->
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:id="@+id/date_tv"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="@string/date" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/weather_iv"
+        android:contentDescription="@string/weather"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/date" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="test">此处是临时数据</string>
+    <string name="drawer_open">打开抽屉</string>
+    <string name="drawer_close">关闭抽屉</string>
+    <string name="cityname">城市</string>
+    <string name="temp">温度</string>
+    <string name="weather">天气</string>
+    <string name="date">日期</string>
+    <string name="add">添加城市</string>
+    <string name="share">分享</string>
+    <string name="meg_tv">城市管理</string>
+    <string name="city_et">城市/省份</string>
+    <string name="navi">导航</string>
+    <string name="open">打开抽屉</string>
+    <string name="close">关闭</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>
